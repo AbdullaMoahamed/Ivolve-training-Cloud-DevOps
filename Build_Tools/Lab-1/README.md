@@ -13,28 +13,30 @@ Make sure you have the following installed on your system:
 ---
 
 ## Step 1: Install Gradle
-Verify Gradle installation by running:
+Verify Gradle version by running:
 ```bash
-gradle -v
-~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/gradleandjavaversion.png
+gradle --version
+```
+
+![gradle -v](~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/gradleandjavaversion.png)
 ---
-#Step 2: Clone the Source Code
+## Step 2: Clone the Source Code
 Clone the application repository from GitHub:
-~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/clonerepo1.png
+![colne repo](~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/clonerepo1.png)
 ---
-#Step 3: Run Unit Tests
+## Step 3: Run Unit Tests
 Execute unit tests using Gradle:
-~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/gradletest.png
+![gradle test](~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/gradletest.png)
 ---
-#Step 4: Build the Application
+## Step 4: Build the Application
 Build the application and generate the artifact:
-~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/gradlebuild.png
+![gardle build](~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/gradlebuild.png)
 ---
-#Step 5: Run the Application
+## Step 5: Run the Application
 Run the application using the generated JAR file:
-~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/runappgradel.png
+![run app](~/Ivolve-Training-Cloud-DevOps/Build_Tools/Lab-1/images/runappgradel.png)
 ---
-#Conclusion
+## Conclusion
 In this lab, you learned how to:
 -Use Gradle to manage a Java project
 -Run unit tests
