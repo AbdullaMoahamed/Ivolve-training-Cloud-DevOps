@@ -22,7 +22,7 @@ gradle --version
 ---
 ## Step 2: Clone the Source Code
 Clone the application repository from GitHub:
-![colne repo](clonerepo1.png)
+![colne repo](images/clonerepo1.png)
 ---
 ## Step 3: Run Unit Tests
 Execute unit tests using Gradle:
@@ -38,7 +38,7 @@ Run the application using the generated JAR file:
 ---
 ## Conclusion
 In this lab, you learned how to:
--Use Gradle to manage a Java project
--Run unit tests
--Build and package a Java application
--Run the generated JAR file
+ - Use Gradle to manage a Java project
+ - Run unit tests
+ - Build and package a Java application
+ - Run the generated JAR file
